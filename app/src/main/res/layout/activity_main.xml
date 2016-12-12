@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cs.test_rxjava1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="创建Observable的各种方法。" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="creat" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="from" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="interval" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="just" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Range" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Repeat" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="timmer" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Observable发射的数据执行变换操作的各种操作符。" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buffer" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FlastMap" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Observable发射的数据执行变换操作的各种操作符。" />
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Distinct" />
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ElementAt" />
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Filter" />
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First" />
+
+        <Button
+            android:id="@+id/btn14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IgnoreElements" />
+
+        <Button
+            android:id="@+id/btn15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last" />
+
+        <Button
+            android:id="@+id/btn16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skip" />
+
+        <Button
+            android:id="@+id/btn17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SkipLast" />
+
+        <Button
+            android:id="@+id/btn18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="take" />
+
+        <Button
+            android:id="@+id/btn19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="takeLast" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="组合操作Observables" />
+
+        <Button
+            android:id="@+id/btn20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Merge" />
+
+        <Button
+            android:id="@+id/btn21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StartWith" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="辅助操作" />
+
+        <Button
+            android:id="@+id/btn22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DoOnNext" />
+
+        <Button
+            android:id="@+id/btn23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ToList" />
+
+        <Button
+            android:id="@+id/btn24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="groupBy" />
+
+        <Button
+            android:id="@+id/btn25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="scan" />
+
+        <Button
+            android:id="@+id/btn26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="window" />
+
+        <Button
+            android:id="@+id/btn27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="debounce" />
+
+        <Button
+            android:id="@+id/btn28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ofType" />
+
+        <Button
+            android:id="@+id/btn29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="single" />
+
+        <Button
+            android:id="@+id/btn30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ignoreElements" />
+
+        <Button
+            android:id="@+id/btn31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sample" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="组合操作符" />
+
+        <Button
+            android:id="@+id/btn32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="combineLatest" />
+
+        <Button
+            android:id="@+id/btn33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="zip" />
+
+        <Button
+            android:id="@+id/btn34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="onErrorReturn" />
+
+        <Button
+            android:id="@+id/btn35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="onErrorNext" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn36"
+            android:text="retry"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn37"
+            android:text="retrywhen"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
